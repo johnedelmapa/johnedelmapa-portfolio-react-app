@@ -1,74 +1,99 @@
-import React from 'react'
+import React from 'react';
 
 const Experience = () => {
 return (
-<div name='experience' className='w-full mt-40 bg-[#0a192f] text-gray-300'>
-    {/* Container */}
+<div name='experience' className='w-full bg-[#0a192f] text-gray-300 py-36'>
     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
-            <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Experience</p>
-            <p className='py-4'>// These are the companies I've worked with</p>
+        <p className='text-5xl font-bold inline border-b-4 border-pink-600 '>Experience</p>
+        <p className='py-4'>// These are the companies I've worked with</p>
         </div>
-
-        <ol class="relative border-l border-gray-200 dark:border-gray-700">
-            <li class="mb-10 ml-4">
-                <div
-                    class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+            <div class="grid grid-cols-1 max-w-[600px] mx-auto pt-20">
+                <div class="relative experience-card border p-4 rounded-md shadow-xl bg-white z-10 mx-4">
+                    <h1
+                        class="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-500">
+                        2022</h1>
+                    <h1 class="font-semibold text-xl dark:text-black">Web Developer</h1>
+                    <p class="text-gray-500">MicronetBD</p>
+                    <p class="text-gray-600 my-2">Lead frontend engineer and backend developer on building web apps for health care organization.</p>
                 </div>
-                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2022</time>
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Web Developer at <b>MicronetBD</b></h3>
-                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Lead frontend engineer and backend developer on building web apps for health care organization.</p>
-            </li>
-
-            <li class="mb-10 ml-4">
-                <div
-                    class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                <div class="divider-container flex flex-col items-center -mt-2">
+                    <div class="w-4 h-4 bg-black dark:bg-pink-500 rounded-full relative z-10">
+                        <div class="w-4 h-4 bg-black dark:bg-pink-600 rounded-full relative z-10 animate-ping"></div>
+                    </div>
+                    <div class="w-1 h-24 bg-gray-200 dark:bg-pink-600 rounded-full -mt-2"></div>
                 </div>
-                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2021</time>
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Web Developer at <b>Areascouts</b></h3>
-                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Working on researching, designing, developing, and managing software running on Ruby on Rails. Work as well as Quality Assurance</p>
-            </li>
-
-            <li class="mb-10 ml-4">
-                <div
-                    class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                <div class="relative experience-card border p-4 rounded-md shadow-xl bg-white z-10 mx-4">
+                    <h1
+                        class="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-500">
+                        2021</h1>
+                    <h1 class="font-semibold text-xl dark:text-black">Web Developer</h1>
+                    <p class="text-gray-500">Areascouts</p>
+                    <p class="text-gray-600 my-2">Working on researching, designing, developing, and managing software running on Ruby on Rails. Work as well as Quality Assurance.</p>
                 </div>
-                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2020</time>
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Web Developer at <b>Sun Asterisk</b></h3>
-                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Pioneered and maintained information systems and internal business applications.</p>
-            </li>
-
-            <li class="mb-10 ml-4">
-                <div
-                    class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                 <div class="divider-container flex flex-col items-center -mt-2">
+                    <div class="w-4 h-4 bg-black dark:bg-pink-500 rounded-full relative z-10">
+                        <div class="w-4 h-4 bg-black dark:bg-pink-600 rounded-full relative z-10 animate-ping"></div>
+                    </div>
+                    <div class="w-1 h-24 bg-gray-200 dark:bg-pink-600 rounded-full -mt-2"></div>
                 </div>
-                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2019</time>
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Bootcamp Instructor at <b>Awesome Ars Academia</b></h3>
-                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Leading and mentoring japanese students in web development. Taught fundamental HTML, CSS, Bootstrap, Mysql, and Ruby on Rails.</p>
-            </li>
-
-            <li class="mb-10 ml-4">
-                <div
-                    class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                <div class="relative experience-card border p-4 rounded-md shadow-xl bg-white z-10 mx-4">
+                    <h1
+                        class="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-500">
+                        2020</h1>
+                    <h1 class="font-semibold text-xl dark:text-black">Web Developer</h1>
+                    <p class="text-gray-500">Sun Asterisk Philippines</p>
+                    <p class="text-gray-600 my-2">Pioneered and maintained information systems and internal business applications.</p>
                 </div>
-                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2019</time>
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Graduation at <b>University on Negros Occidental - Recoletos</b></h3>
-                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Bachelor's degree in Information Technology.</p>
-            </li>
-
-            <li class="mb-10 ml-4">
-                <div
-                    class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                <div class="divider-container flex flex-col items-center -mt-2">
+                    <div class="w-4 h-4 bg-black dark:bg-pink-500 rounded-full relative z-10">
+                        <div class="w-4 h-4 bg-black dark:bg-pink-600 rounded-full relative z-10 animate-ping"></div>
+                    </div>
+                    <div class="w-1 h-24 bg-gray-200 dark:bg-pink-600 rounded-full -mt-2"></div>
                 </div>
-                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2019</time>
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Intership at <b>Hybrain</b></h3>
-                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Performed software development tasks, assisted in the design and architecture of software applications, and communicated closely with senior software engineers.</p>
-            </li>
-        </ol>
-
+                <div class="relative experience-card border p-4 rounded-md shadow-xl bg-white z-10 mx-4">
+                    <h1
+                        class="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-500">
+                        2020</h1>
+                    <h1 class="font-semibold text-xl dark:text-black">Bootcamp Instructor</h1>
+                    <p class="text-gray-500">Awesome Ars Academia</p>
+                    <p class="text-gray-600 my-2">Leading and mentoring japanese students in web development. Taught fundamental HTML, CSS, Bootstrap, Mysql, and Ruby on Rails.</p>
+                </div>
+                <div class="divider-container flex flex-col items-center -mt-2">
+                    <div class="w-4 h-4 bg-black dark:bg-pink-500 rounded-full relative z-10">
+                        <div class="w-4 h-4 bg-black dark:bg-pink-600 rounded-full relative z-10 animate-ping"></div>
+                    </div>
+                    <div class="w-1 h-24 bg-gray-200 dark:bg-pink-600 rounded-full -mt-2"></div>
+                </div>
+                <div class="relative experience-card border p-4 rounded-md shadow-xl bg-white z-10 mx-4">
+                    <h1
+                        class="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-500">
+                        2019</h1>
+                    <h1 class="font-semibold text-xl dark:text-black">Graduation</h1>
+                    <p class="text-gray-500">University on Negros Occidental - Recoletos</p>
+                    <p class="text-gray-600 my-2">Bachelor's degree in Information Technology.</p>
+                </div>
+                 <div class="divider-container flex flex-col items-center -mt-2">
+                    <div class="w-4 h-4 bg-black dark:bg-pink-500 rounded-full relative z-10">
+                        <div class="w-4 h-4 bg-black dark:bg-pink-600 rounded-full relative z-10 animate-ping"></div>
+                    </div>
+                    <div class="w-1 h-24 bg-gray-200 dark:bg-pink-600 rounded-full -mt-2"></div>
+                </div>
+                <div class="relative experience-card border p-4 rounded-md shadow-xl bg-white z-10 mx-4">
+                    <h1
+                        class="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-500">
+                        2019</h1>
+                    <h1 class="font-semibold text-xl dark:text-black">Intership</h1>
+                    <p class="text-gray-500">Hybrain</p>
+                    <p class="text-gray-600 my-2">Performed software development tasks, assisted in the design and
+                        architecture of software applications, and communicated closely with senior software engineers.
+                    </p>
+                </div>
+            </div>
+    
     </div>
 </div>
 );
-}
+};
 
-export default Experience
+export default Experience;

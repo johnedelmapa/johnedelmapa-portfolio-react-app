@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
 import Resume from '../assets/mapa_resume.pdf';
 
 const Navbar = () => {
@@ -17,35 +17,25 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div class="flex flex-col"><a href="/"><h1 class="font-semibold text-xl dark:text-gray-100">Johnedel Mapa</h1><p class="text-base font-light text-gray-500 dark:text-gray-300">Web Developer</p></a></div>
 
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='home' smooth={true} duration={500}>
-            Home
-          </Link>
+          <a href="/">Home</a>
         </li>
         <li>
-          <Link to='about' smooth={true} duration={500}>
-            About
-          </Link>
+          <a href="/about">About</a>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
-            Work
-          </Link>
+          <a href="/work">Work</a>
         </li>
         <li>
-          <Link to='experience' smooth={true} duration={500}>
-            Experience
-          </Link>
+          <a href="/experience">Experience</a>
         </li>
         <li>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
 
@@ -63,33 +53,19 @@ const Navbar = () => {
         }
       >
         <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
-            Home
-          </Link>
+          <a href="/">Home</a>
         </li>
         <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About
-          </Link>
+          <a href="/about">About</a>
         </li>
         <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
-          </Link>
+          <a href="/work">Work</a>
         </li>
         <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='experience' smooth={true} duration={500}>
-            Experience
-          </Link>
+          <a href="/experience">Experience</a>
         </li>
         <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
 
