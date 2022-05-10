@@ -70,6 +70,9 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>
           <a href="/contact">Contact</a>
         </li>
+         <li className='py-6 text-4xl'>
+          <a href="/mapstv">Maps TV</a>
+        </li>
       </ul>
 
       {/* Social icons */}
