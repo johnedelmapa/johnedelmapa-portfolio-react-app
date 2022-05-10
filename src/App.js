@@ -6,6 +6,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import { Routes, Route } from 'react-router-dom';
+import Mapstv from "./components/Mapstv";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/work' element={<Work/>} />
         <Route path='/experience' element={<Experience/>} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/mapstv' element={<Mapstv/>} />
       </Routes>
       {/* <Home />
       <About />

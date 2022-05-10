@@ -37,6 +37,9 @@ const Navbar = () => {
         <li>
           <a href="/contact">Contact</a>
         </li>
+        <li className='transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-30'>
+          <a href="/mapstv" className='border-2 border-pink-600 p-3 hover:bg-pink-600'>Maps TV</a>
+        </li>
       </ul>
 
       {/* Hamburger */}
