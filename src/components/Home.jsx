@@ -12,7 +12,7 @@ return (
     <p className='text-pink-600'>Hi, my name is</p>
     <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Johnedel Mapa</h1>
     <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Web Developer</h2>
-    <p className='text-[#8882b0] py-4 max-w-[700px]'>A 23-year-old web developer based in Bacolod, Philippines.</p>
+    <p className='text-[#8882b0] py-4 max-w-[700px]'>A 24-year-old web developer based in Bacolod, Philippines.</p>
     <div>
       <a href='/work'>
       <button
